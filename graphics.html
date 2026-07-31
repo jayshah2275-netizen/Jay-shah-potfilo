@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphics Design Portfolio</title>
+    <style>
+        :root {
+            --bg-color: #121212;
+            --card-bg: #1e1e1e;
+            --text-color: #e0e0e0;
+            --accent-color: #ff7b00;
+            --accent-hover: #ff9533;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 2rem;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: #ffffff;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            color: #888;
+            font-size: 1.1rem;
+        }
+
+        .section {
+            margin-bottom: 3rem;
+        }
+
+        .section h2 {
+            font-size: 1.8rem;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+            color: #ffffff;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            display: block;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 1rem;
+        }
+
+        .card-content h3 {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            color: #ffffff;
+        }
+
+        .card-content p {
+            font-size: 0.9rem;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Graphics Portfolio</h1>
+        <p>Showcasing creative designs across branding, marketing, and advertising.</p>
+    </header>
+
+    <!-- Branding & Logos Section -->
+    <section class="section">
+        <h2>Branding & Logos</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="1000086472.jpg" alt="Rise Above Digital Logo">
+                <div class="card-content">
+                    <h3>Rise Above Digital</h3>
+                    <p>Modern corporate logo and brand identity design.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="1000086475.jpg" alt="Skyline Designs Business Card">
+                <div class="card-content">
+                    <h3>Skyline Designs</h3>
+                    <p>Professional architectural business card design concept.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media & Banners Section -->
+    <section class="section">
+        <h2>Social Media & Banners</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="1000086466.jpg" alt="Sale Promotional Post">
+                <div class="card-content">
+                    <h3>Fashion Sale Ad</h3>
+                    <p>Clean and trendy promotional banner for clothing discounts.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="1000086469.jpg" alt="Payday Sale Banner">
+                <div class="card-content">
+                    <h3>Payday Sale Banner</h3>
+                    <p>High-impact social media campaign creative.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Print & Brochures Section -->
+    <section class="section">
+        <h2>Print & Brochures</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="1000086455.jpg" alt="Digital Photography Brochure">
+                <div class="card-content">
+                    <h3>Digital Photography Brochure</h3>
+                    <p>Tri-fold layout design tailored for a professional studio.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="1000086452.jpg" alt="World City Tour Brochure">
+                <div class="card-content">
+                    <h3>World City Tour Brochure</h3>
+                    <p>Travel and tourism promotional tri-fold brochure.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advertisements & Mockups Section -->
+    <section class="section">
+        <h2>Advertisements & Mockups</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="1000086449.jpg" alt="Headphone Billboard Mockup">
+                <div class="card-content">
+                    <h3>Headphone Billboard Mockup</h3>
+                    <p>Outdoor advertising layout and product presentation.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="1000086446.jpg" alt="Fresh Orange Juice Poster">
+                <div class="card-content">
+                    <h3>Fresh Orange Juice Poster</h3>
+                    <p>Minimalist product packaging and advertising design.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
